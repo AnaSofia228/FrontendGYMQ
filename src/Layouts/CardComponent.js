@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Cards } from '../Ui/Cards';
+import  Cards  from '../Ui/Cards';
 
 const CardComponent = () => {
   const [selectedButton, setSelectedButton] = useState(null);
@@ -47,7 +47,7 @@ const CardComponent = () => {
       <Cards/>
       <Cards/>
     </div></div> },
-      { id: 4, buttonId: 'button4', content: <div>j<div className='store-cards'>
+      { id: 4, buttonId: 'button4', content: <div><div className='store-cards'>
       <Cards/>
       <Cards/>
       <Cards/>
@@ -72,10 +72,10 @@ const CardComponent = () => {
   return (
     <>
     <div className='buttons'>
-      <button className='btn' onClick={() => handleButtonClick('button1')}>Brazo</button>
-      <button className='btn' onClick={() => handleButtonClick('button2')}>Espalda</button>
-      <button className='btn' onClick={() => handleButtonClick('button3')}>Glúteo</button>
-      <button className='btn' onClick={() => handleButtonClick('button4')}>Pierna</button>
+      <button className='btns' onClick={() => handleButtonClick('button1')}>Brazo</button>
+      <button className='btns' onClick={() => handleButtonClick('button2')}>Espalda</button>
+      <button className='btns' onClick={() => handleButtonClick('button3')}>Glúteo</button>
+      <button className='btns' onClick={() => handleButtonClick('button4')}>Pierna</button>
     </div>
       {renderCards()}
     </>
