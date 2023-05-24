@@ -124,6 +124,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+.menu_perfil{
+    margin-right: 1rem;
+}
 .settings {
     display: flex;
     margin: 0.5rem;
