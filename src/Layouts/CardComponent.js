@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
-import  Cards  from '../Ui/Cards';
+import CardArm from './CardArm';
+import CardArms from './CardArms';
+import CardBack from './CardBack';
+import CardBacks from './CardBacks';
+import CardGluteu from './CardGluteu';
+import CardGluteus from './CardGluteus';
+import CardLeg from './CardLeg';
+import CardLegs from './CardLegs';
 
 const CardComponent = () => {
   const [selectedButton, setSelectedButton] = useState(null);
@@ -12,52 +19,28 @@ const CardComponent = () => {
     // Aquí puedes reemplazar "data" con tu propio conjunto de datos de tarjetas
     const data = [
       { id: 1, buttonId: 'button1', content: <div><div className='store-cards'>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
+        <CardArm/>
       </div>
       <div className='store-cards'>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
+        <CardArms/>
       </div></div> },
       { id: 2, buttonId: 'button2', content: <div><div className='store-cards'>
-      <Cards/>
-      <Cards/>
-      <Cards/>
-      <Cards/>
+      <CardBack/>
     </div>
     <div className='store-cards'>
-      <Cards/>
-      <Cards/>
-      <Cards/>
-      <Cards/>
+      <CardBacks/>
     </div></div> },
       { id: 3, buttonId: 'button3', content: <div><div className='store-cards'>
-      <Cards/>
-      <Cards/>
-      <Cards/>
-      <Cards/>
+      <CardGluteu/>
     </div>
     <div className='store-cards'>
-      <Cards/>
-      <Cards/>
-      <Cards/>
-      <Cards/>
+      <CardGluteus/>
     </div></div> },
       { id: 4, buttonId: 'button4', content: <div><div className='store-cards'>
-      <Cards/>
-      <Cards/>
-      <Cards/>
-      <Cards/>
+      <CardLeg/>
     </div>
     <div className='store-cards'>
-      <Cards/>
-      <Cards/>
-      <Cards/>
-      <Cards/>
+      <CardLegs/>
     </div></div> },
     ];
 
