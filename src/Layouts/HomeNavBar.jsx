@@ -18,7 +18,7 @@ export const HomeNavBar = () => {
                   <li><a href="/">Planes</a></li>
                   <li><a href="/routines">Rutinas</a></li> 
                   <li><a href="/">Tienda</a></li> 
-                  <li><a href="/">Gimnasios</a></li> 
+                  <li><a href="/gimnasios">Gimnasios</a></li> 
               </ul>
           </div>
             <ul className='user'>

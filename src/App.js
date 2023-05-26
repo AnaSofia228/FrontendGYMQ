@@ -3,6 +3,7 @@ import { Home } from './Pages/Home';
 import { HomeUser } from './Pages/HomeUser';
 import { Routines } from './Pages/Routines';
 import { RoutinesUser } from './Pages/RoutinesUser';
+import { Gym } from './Pages/Gym';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Route path='/home' element={<HomeUser/>}/>
     <Route path='/routines' element={<Routines/>}/>
     <Route path='/routinesuser' element={<RoutinesUser/>}/>
+    <Route path='/gimnasios' element={<Gym/>}/>
   </Routes>
   );
 }

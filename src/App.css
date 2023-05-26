@@ -92,6 +92,7 @@ body {
     margin-left: -2rem;
     height: 18rem;
     margin-right: 1rem;
+    box-shadow: 38px 40px 104px 8px black;
 }
 .cuenta {
     display: flex;
@@ -672,5 +673,11 @@ body {
 
 .card-list {
     display: flex;
+    justify-content: space-around;
+}
+
+.gym-target {
+    display: flex;
+    border: solid 1px black;
     justify-content: space-around;
 }
