@@ -32,13 +32,13 @@ const FileGym = () => {
             textName: 'Gimnasio',
             direction: 'direccion',
             // imageGym: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1685371332/ImagenD_zycbgp.jpg'
-        },
-        {
-            image: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1685371157/ImagenC_davwiy.png',
-            textName: 'Gimnasio',
-            direction: 'direccion',
-            // imageGym: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1685371332/ImagenD_zycbgp.jpg'
         }
+        // {
+        //     image: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1685371157/ImagenC_davwiy.png',
+        //     textName: 'Gimnasio',
+        //     direction: 'direccion',
+        //     // imageGym: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1685371332/ImagenD_zycbgp.jpg'
+        // }
     ]
 
     return (

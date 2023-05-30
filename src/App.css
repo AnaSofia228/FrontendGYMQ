@@ -161,7 +161,7 @@ body {
 }
 
 .home_main {
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding: 0.5rem;
 }
 
@@ -694,7 +694,7 @@ body {
 .imgGym {
     border-radius: 2rem;
     margin: 1rem;
-    margin-left: -2rem;
+    margin-left: 2rem;
     margin-right: 4rem;
     background-color: #FFF;
     width: 8rem;
@@ -755,6 +755,7 @@ body {
     justify-content: space-around;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    margin-left: -4rem;
 }
 .workerGym {
     display: flex;
