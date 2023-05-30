@@ -1,15 +1,15 @@
 import React from 'react'
 
-const Target = () => {
+const Target = ({image, textName, direction, imageGym}) => {
   return (
     <div className='target'>
         <div className='card'>
             <div className='imge'>
-                <div className='Usericon'></div>
-                <p className='Username'></p>
-                <p className='Id'></p>
+                <div><img className='Usericon' src={image} /></div>
+                <p className='Username'><a href='/info'>{textName}</a></p>
+                <p className='Id'>{direction}</p>
             </div>
-            <div className='Description'></div>
+            <div><img className='Description' src={imageGym} /></div>
             <div className='social-media'>
                 <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">

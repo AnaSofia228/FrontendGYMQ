@@ -4,6 +4,7 @@ import { HomeUser } from './Pages/HomeUser';
 import { Routines } from './Pages/Routines';
 import { RoutinesUser } from './Pages/RoutinesUser';
 import { Gym } from './Pages/Gym';
+import { Information } from './Pages/Information';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Route path='/routines' element={<Routines/>}/>
     <Route path='/routinesuser' element={<RoutinesUser/>}/>
     <Route path='/gimnasios' element={<Gym/>}/>
+    <Route path='/info' element={<Information/>}/>
   </Routes>
   );
 }
