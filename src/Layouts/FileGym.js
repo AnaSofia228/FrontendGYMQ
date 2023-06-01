@@ -4,41 +4,35 @@ import Target from "../Ui/Target";
 const FileGym = () => {
     const data = [
         {
-            image: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1685371157/ImagenC_davwiy.png',
-            textName: 'Gimnasio',
-            direction: 'direccion',
-            // imageGym: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1685371332/ImagenD_zycbgp.jpg'
+            image: 'https://res.cloudinary.com/duxhiuugx/image/upload/v1685650470/Imagen_zpfwlu.png',
+            textName: 'Smart Power Gym',
+            direction: 'Cl. 23 #37-25',
+            imageGym: 'https://res.cloudinary.com/duxhiuugx/image/upload/v1685650763/Imagen01_n6czw7.jpg'
         },
         {
-            image: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1685371157/ImagenC_davwiy.png',
-            textName: 'Gimnasio',
-            direction: 'direccion',
-            // imageGym: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1685371332/ImagenD_zycbgp.jpg'
+            image: 'https://res.cloudinary.com/duxhiuugx/image/upload/v1685650470/Imagen_zpfwlu.png',
+            textName: 'Smart Power Gym',
+            direction: 'Cl. 23 #37-25',
+            imageGym: 'https://res.cloudinary.com/duxhiuugx/image/upload/v1685650763/Imagen01_n6czw7.jpg'
         },
         {
-            image: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1685371157/ImagenC_davwiy.png',
-            textName: 'Gimnasio',
-            direction: 'direccion',
-            // imageGym: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1685371332/ImagenD_zycbgp.jpg'
+            image: 'https://res.cloudinary.com/duxhiuugx/image/upload/v1685650470/Imagen_zpfwlu.png',
+            textName: 'Smart Power Gym',
+            direction: 'Cl. 23 #37-25',
+            imageGym: 'https://res.cloudinary.com/duxhiuugx/image/upload/v1685650763/Imagen01_n6czw7.jpg'
         },
         {
-            image: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1685371157/ImagenC_davwiy.png',
-            textName: 'Gimnasio',
-            direction: 'direccion',
-            // imageGym: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1685371332/ImagenD_zycbgp.jpg'
+            image: 'https://res.cloudinary.com/duxhiuugx/image/upload/v1685650470/Imagen_zpfwlu.png',
+            textName: 'Smart Power Gym',
+            direction: 'Cl. 23 #37-25',
+            imageGym: 'https://res.cloudinary.com/duxhiuugx/image/upload/v1685650763/Imagen01_n6czw7.jpg'
         },
         {
-            image: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1685371157/ImagenC_davwiy.png',
-            textName: 'Gimnasio',
-            direction: 'direccion',
-            // imageGym: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1685371332/ImagenD_zycbgp.jpg'
-        }
-        // {
-        //     image: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1685371157/ImagenC_davwiy.png',
-        //     textName: 'Gimnasio',
-        //     direction: 'direccion',
-        //     // imageGym: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1685371332/ImagenD_zycbgp.jpg'
-        // }
+            image: 'https://res.cloudinary.com/duxhiuugx/image/upload/v1685650470/Imagen_zpfwlu.png',
+            textName: 'Smart Power Gym',
+            direction: 'Cl. 23 #37-25',
+            imageGym: 'https://res.cloudinary.com/duxhiuugx/image/upload/v1685650763/Imagen01_n6czw7.jpg'
+        },
     ]
 
     return (
@@ -49,7 +43,7 @@ const FileGym = () => {
                     image={cardData.image}
                     textName={cardData.textName}
                     direction={cardData.direction}
-                    // imageGym={cardData.imageGym}
+                    imageGym={cardData.imageGym}
                 />
             ))}
         </div>
