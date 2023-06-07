@@ -11,13 +11,21 @@ const InfoGym = () => {
 
     const images = [
         {
-          src: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1680128439/logo_yp653j.jpg',
+          src: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1686156672/SPG_ndxltr.jpg',
           alt: 'Descripción de la imagen 1',
         },
         {
-          src: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1680128439/logo_yp653j.jpg',
+          src: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1686156672/SPG01_ljps4m.jpg',
           alt: 'Descripción de la imagen 2',
         },
+        {
+          src: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1686156692/SPG03_p8tbxv.jpg',
+          alt: 'Descripción de la imagen 2',
+        },
+        {
+          src: 'https://res.cloudinary.com/drnmx4xgd/image/upload/v1686156692/SPG02_woh1be.jpg',
+          alt: 'Descripción de la imagen 2',
+        }
         // Agrega más objetos de imagen según sea necesario
       ];
 

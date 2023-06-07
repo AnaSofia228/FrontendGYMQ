@@ -9,7 +9,7 @@ export const NavBarUser = () => {
     setShowMenu(!showMenu)
   }
 
-  return (
+  return ( 
     <div>
         <nav className='menu'>
           <div className={`menuNav ${showMenu ? 'show' : ''}`}>
@@ -18,7 +18,7 @@ export const NavBarUser = () => {
                   <li><a href="/">Planes</a></li>
                   <li><a href="/routinesuser">Rutinas</a></li> 
                   <li><a href="/">Tienda</a></li> 
-                  <li><a href="/">Gimnasios</a></li> 
+                  <li><a href="/gimnasioUser">Gimnasios</a></li> 
               </ul>
           </div>
             <ul className='user_menu'>

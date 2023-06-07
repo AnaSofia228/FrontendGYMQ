@@ -1,6 +1,6 @@
 import { Menu, MenuItem, MenuButton } from '@szhsin/react-menu'
 
-export default function MenuDesplegable() {
+export default function MenuDesplegable() { 
     return (
         <div>
             <button className='toggle-button'>

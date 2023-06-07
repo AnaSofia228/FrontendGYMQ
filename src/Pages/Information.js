@@ -1,7 +1,7 @@
 import '../App.css'
 import { HomeNavBar } from '../Layouts/HomeNavBar';
 import InfoGym from '../Layouts/InfoGym';
-
+ 
 export function Information() {
     return ( 
         <div>

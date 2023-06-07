@@ -8,7 +8,7 @@ const ImageCarousel = ({ images }) => {
 
   const openModal = (index) => {
     setSelectedImageIndex(index);
-    setIsModalOpen(true);
+    setIsModalOpen(true); 
   };
 
   const closeModal = () => {
